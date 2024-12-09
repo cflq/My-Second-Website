@@ -1,0 +1,239 @@
+*::selection{
+  color:white;
+  background-color: #203c5d;
+  cursor:default;
+}
+
+body{
+  margin:0;
+}
+
+#welcome{
+  font-family: Tahoma, Verdana, sans-serif;
+  border: 3px outset rgb(0, 187, 255);
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #112D4E;
+  color:#DBE2EF;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-shadow: 0px 0px 10px black;
+}
+
+#welcome:hover{
+  color:#203c5d;
+  box-shadow: 0px 0px 15px #265f9b;
+  background-color:#DBE2EF;
+  border-color:white;
+  cursor:default;
+}
+
+.maindiv{
+  position: sticky;
+  top: 20px;
+}
+
+.nbar ul{
+  text-align: center;
+  font-family: parkinsans;
+  list-style-type: none;
+  background-color: #112D4E;
+  padding: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  overflow: hidden;
+  border-radius: 17px;
+  border: 3px outset rgb(0, 187, 255);
+  box-shadow: 0px 5px 20px black;
+}
+
+.nbar a{
+  text-decoration: none;
+  color:#F9F7F7;
+  padding: 10px;
+  display: block;
+}
+
+#key{
+  background-color: #265f9b;
+}
+
+.nbar a:hover{
+  background-color:#265f9b;
+}
+
+.nbar a::selection{
+  color:#203c5d;
+  background-color:#DBE2EF;
+}
+
+
+.nbar li{
+  float:left;
+}
+
+.nbar #special{
+  cursor: default;
+  display: block;
+  color:#DBE2EF;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  float: right;
+  padding-top: 8px;
+  padding-right: 20px;
+}
+
+#special::selection{
+  color:#203c5d;
+  background-color:#DBE2EF;
+}
+
+.hello{
+  cursor:default;
+  font-size: 2em;
+  margin-left: 8%;
+  font-family: parkinsans;
+  margin-bottom: 0px;
+}
+
+.name{
+  font-family: coiny;
+  font-size: 1.2em;
+  color:#265f9b;
+}
+
+.name:hover{
+  color:#4485cb;
+  text-shadow: 0px 0px 3px hsl(203, 80%, 63%);
+  cursor:default;
+}
+
+#new{
+  cursor:default;
+  font-size: 1.8em;
+  margin-left: 8%;
+  margin-top: 0px;
+  font-family: parkinsans;
+}
+
+.INFO{
+  font-family: parkinsans;
+  font-size:1.3em;
+  color:white;
+  background-color:#203c5d;
+  border-radius: 10px;
+  padding:5px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.INFO::selection{
+  color:#203c5d;
+  background-color:#DBE2EF;
+}
+
+.INFO:hover{
+  background-color: #265f9b;
+  animation-name: info;
+  animation-duration:0.7s;
+  animation-fill-mode: forwards;
+}
+
+.INFO:not(:hover){
+  animation-name: releaseinfo;
+  animation-duration:1s;
+}
+
+@keyframes info {
+  to{box-shadow: 0px 10px 15px black}
+}
+
+@keyframes releaseinfo {
+  from{box-shadow: 0px 10px 15px black}
+  to{box-shadow: 0px 0px 0px black}
+}
+
+
+#nagi{
+  width: 150px;
+  float:left;
+  margin-right: 20px;
+  margin-left:12%;
+  border-radius: 50%;
+  border: 7px solid #112D4E;
+}
+
+#nagi:hover{
+  border-color: #4089d6;
+  animation-name: shadow;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+#nagi:not(:hover){
+  animation-name: releaseshadow;
+  animation-duration: 1s;
+}
+@keyframes shadow {
+  to{box-shadow: -10px 10px 15px black}
+}
+
+@keyframes releaseshadow {
+  from{box-shadow: -10px 10px 15px black}
+  to{box-shadow: 0px 0px 0px black}
+}
+
+.dname{
+  color: rgb(37, 54, 93);
+  font-size:x-large;
+}
+
+#aka{
+  color:black;
+  font-size:x-large;
+}
+
+.descriptions{
+  margin-left: 12%;
+  margin-right:15%;
+  margin-bottom:50px;
+  font-size: 1.2em;
+  font-family: parkinsans;
+  color:grey;
+}
+
+#foot{
+  background-color: #112D4E;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.sel::selection{
+  color: #203c5d;
+  background-color: #DBE2EF;
+}
+
+#made{
+  color: #DBE2EF;
+  padding-top: 20px;
+}
+
+#copy{
+  color:#DBE2EF;
+  padding-top: 20px;
+}
+
+.icons{
+  padding-top:20px;
+  text-align:center;
+  color:#DBE2EF;
+}
+
+.fa-brands.fa-html5.fa-4x{
+  padding-right:10px;
+}
+
+.fa-brands.fa-css3-alt.fa-4x{
+  padding-left:10px;
+}
