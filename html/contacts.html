@@ -3,8 +3,8 @@
 <html>
     <head>
         <title>Contacts</title>
-        <link rel="stylesheet" href="contacts.css">
-        <link rel="icon" href="images/contact.png">
+        <link rel="stylesheet" href="/css/contacts.css">
+        <link rel="icon" href="/images/contact.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
@@ -37,15 +37,15 @@
             <label for="username"><span class="contact">Your Name :</span></label>
             <input type="text" id="username" placeholder="Name" size="33" maxlength="26" required>
             <br><br>
-            <label for="email"><span class="contact">Email :</span></label>
+            <label for="email"><div class="contact">Email :</div></label>
             <input type="text" id="email" placeholder="Example@Gmail.com" size="32" required>
             <br>
             <br>
-            <label for="message"><span class="contact">Message:</span></label>
+            <label for="message"><div class="contact">Message:</div></label>
             <textarea id="message" rows="7" cols="35" placeholder="Hello !"></textarea>
 
             <br><br>
-            <input type="submit">
+            <input id="submit" type="submit">
         </div>
     </main>
     <br>
